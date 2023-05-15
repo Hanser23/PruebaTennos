@@ -26,6 +26,6 @@ function ContarCaracteresComun(Palabra1, Palabra2) {
   const Palabra2 = "aaavv";
   
   const commonChars = ContarCaracteresComun(Palabra1, Palabra2);
-  console.log(commonChars);
+  console.log("La cantidad de letras en comunes entre {" +Palabra1+'} y {'+Palabra2 + '} son: '+commonChars);
 
     
